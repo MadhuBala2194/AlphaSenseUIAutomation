@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.417">
+    <testcase classname="Search String in AlphaSense webpage" name="Search string in webpage" time="0.105">
+        <system-out><![CDATA[Given user enter into the application site..................................passed
+When user search for "AlphaSense" in Additional Keyword tab.................passed
+And click on link for last found results....................................passed
+Then user verfies statement highlighted in doc viewer.......................passed
+]]></system-out>
+    </testcase>
+</testsuite>

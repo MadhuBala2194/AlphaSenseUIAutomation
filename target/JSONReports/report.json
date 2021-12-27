@@ -1,0 +1,96 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "start_timestamp": "2021-12-23T11:12:06.450Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2245100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.Search.setup()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Search string in webpage",
+        "description": "",
+        "id": "search-string-in-alphasense-webpage;search-string-in-webpage",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.Search.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 597400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter into the application site",
+            "match": {
+              "location": "StepDefinition.Search.user_enter_into_the_application_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user search for \"AlphaSense\" in Additional Keyword tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AlphaSense\"",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDefinition.Search.user_search_for_in_additional_keyword_tab(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click on link for last found results",
+            "match": {
+              "location": "StepDefinition.Search.click_on_link_for_last_found_results()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user verfies statement highlighted in doc viewer",
+            "match": {
+              "location": "StepDefinition.Search.user_verfies_statement_highlighted_in_doc_viewer()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search String in AlphaSense webpage",
+    "description": "",
+    "id": "search-string-in-alphasense-webpage",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/SearchText.feature",
+    "tags": []
+  }
+]
