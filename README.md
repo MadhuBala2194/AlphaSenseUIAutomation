@@ -2,7 +2,7 @@
 This is an example project for doing web automation testing using Selenium, maven, Page object model, BDD -cucumber framework. This project test the search functionality in AlphaSense website.
 
 # Running this example
-This example can run in chrome and firefox. Both browser drivers are inside project directory under 'driver' folder
+This example can run in chrome and firefox. Both browser drivers are inside project directory under 'driver' folder. Open feature file -> right click run as cucumber feature
 
 # Prerequisites
 This example requires the following softwares to run.
